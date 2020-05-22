@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ManoKomponentas from './ManoKomponentas';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <ManoKomponentas />
   </React.StrictMode>,
   document.getElementById('root')
 );
